@@ -1,0 +1,39 @@
+
+.search-faild {
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+    width: 95%;
+
+    text-align: center;
+    justify-self: center;
+}
+
+.search-faild > p {
+    align-content: center;
+}
+
+.hr-sect {
+    margin: 10px 0px;
+    align-items: center;
+
+    display: flex;
+    flex-basis: 100%;
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.hr-sect::before,
+.hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    
+    height: 2px;
+    line-height: 0px;
+    margin: 0px 16px;
+    
+    font-size: 0px;
+    background: black;
+}

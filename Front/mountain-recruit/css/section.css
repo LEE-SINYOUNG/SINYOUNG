@@ -27,7 +27,7 @@ section {
     min-width: 320px;
     max-width: 1024px;
     display: grid;
-    grid-template-columns: repeat(5, minmax(60px,204px));
+    grid-template-columns: repeat(5, minmax(202px,204px));
     
     place-items: center;
     justify-content: center;
@@ -55,7 +55,7 @@ p#title {
     text-align: center;
 }
 .recruit-data>p {
-    margin: 5px;
+    margin: 3px;
     text-align: left;
 }
 
@@ -126,7 +126,7 @@ p#title {
 }
 
 @media screen and (min-width: 750px) and (max-width: 1050px) {
-    .mountain-info {
+    .mountain-recuit {
         display: grid;
         grid-template-columns: repeat(1, 300px);
         

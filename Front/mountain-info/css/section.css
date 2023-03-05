@@ -27,7 +27,7 @@ section {
     min-width: 320px;
     max-width: 1024px;
     display: grid;
-    grid-template-columns: repeat(5, minmax(60px,204px));
+    grid-template-columns: repeat(5, minmax(202px,204px));
     
     place-items: center;
     justify-content: center;

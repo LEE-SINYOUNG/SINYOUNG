@@ -27,7 +27,7 @@ section {
     min-width: 320px;
     max-width: 1024px;
     display: grid;
-    grid-template-columns: repeat(5, minmax(60px,204px));
+    grid-template-columns: repeat(5, minmax(202px,204px));
 
     place-items: center;
     justify-content: center;
@@ -57,7 +57,7 @@ section {
     min-width: 320px;
     max-width: 1024px;
     display: grid;
-    grid-template-columns: repeat(5, minmax(60px,204px));
+    grid-template-columns: repeat(5, minmax(202px,204px));
 
     place-items: center;
     justify-content: center;
@@ -195,11 +195,34 @@ section {
 }
 
 @media screen and (min-width: 750px) and (max-width: 1050px) {
-    .mountain-info {
+    .search-results {
         display: grid;
         grid-template-columns: repeat(1, 300px);
         
         justify-content: center;
         gap: 20px;
       }
+    
+    .result-line {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .guide {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .suggestion {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .suggestion-line {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
 }

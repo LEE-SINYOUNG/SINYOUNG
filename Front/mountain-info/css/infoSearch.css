@@ -72,8 +72,9 @@ section {
 
 
 .item {
-    min-width: 60px;
-    max-width: 200px;
+    /* min-width: 60px;
+    max-width: 200px; */
+    width: 180px;
     height: 330px;
     padding: 10px;
     margin: 10px 3px ;

@@ -30,12 +30,13 @@ section {
     grid-template-columns: repeat(5, minmax(202px,204px));
     
     place-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .item {
-    min-width: 60px;
-    max-width: 200px;
+    /* min-width: 170px;
+    max-width: 200px; */
+    width: 180px;
     height: 330px;
     padding: 10px;
     margin: 10px 3px ;

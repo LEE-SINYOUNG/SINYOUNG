@@ -246,12 +246,59 @@ div.select-sort {
 }
 
 
-/* @media screen and (max-width: 1024px) {
-  .mountain-info {
-      display: grid;
-      grid-template-columns: repeat(1, 300px);
-      
-      justify-content: center;
-      gap: 20px;
-    }
-} */
+
+@media screen and (max-width: 768px) {
+  .search-results {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  div.select-sort {
+      grid-column-start: 1;
+      grid-column-end: 4;
+  }
+
+  .result-line {
+      grid-column-start: 1;
+      grid-column-end: 4;
+  }
+  .guide {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .suggestion {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .suggestion-line {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .search-results {
+    grid-template-columns: repeat(1, 300px);
+  }
+
+  div.select-sort {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .result-line {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .guide {
+    grid-column-start: 1;
+    grid-column-end:2;
+  }
+
+  .suggestion {
+    grid-template-columns: repeat(1, 300px);
+  }
+  .suggestion-line {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}

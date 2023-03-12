@@ -133,7 +133,7 @@ div.select-sort {
 
 
 
-@media screen and (min-width: 427px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .mountain-info {
         grid-template-columns: repeat(3, 1fr);
     }

@@ -198,22 +198,6 @@ div.select-sort {
 }
 
 
-/* @media screen and (min-width: 750px) and (max-width: 1050px) {
-    .search-results {
-        display: grid;
-        grid-template-columns: repeat(1, 300px);
-        
-        justify-content: center;
-        gap: 20px;
-      }
-
-    .result-line {
-        grid-column-start: 1;
-        grid-column-end: 1;
-    }
-   
-} */
-
 
 @media screen and (max-width: 768px) {
   .search-results {
@@ -243,7 +227,7 @@ div.select-sort {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   .search-results {
     grid-template-columns: repeat(1, 300px);
   }

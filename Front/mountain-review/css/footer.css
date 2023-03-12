@@ -1,12 +1,16 @@
-
 footer {
   width: 100vw;
   background-color: #43a047;
+  margin-top: 100px;
 }
 .footer {
+  min-width: 375px;
+  max-width: 1024px;
   text-align: center;
-  padding: 30px 50px;
+  padding: 30px;
   position: relative;
+  margin: auto;
+  box-sizing: border-box;
 }
 .footer li {
   position: relative;
@@ -37,7 +41,7 @@ footer {
   flex-direction: row;
   position: absolute;
   bottom: 30px;
-  right: 30px;
+  left: 140px;
 }
 .footer a:hover {
   transition: all 400ms ease;
@@ -57,4 +61,22 @@ footer {
 .link-bar a:nth-of-type(2) {
   background: url(../svg/github.svg);
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  footer{
+    margin-top: 45px;
+  }
+  .footer {
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+  }
+  .support {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto auto;
+  }
+  .link-bar {
+    position: static;
+  }
 }

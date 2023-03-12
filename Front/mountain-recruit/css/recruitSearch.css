@@ -87,139 +87,141 @@ div.select-sort {
 
 
 /* Item */
-.review-item {
+.recruit-item {
     width: 200px;
     height: 330px;
     padding: 15px;
     border: 0;
     border-radius: 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.22);
-
+  
     background-color: #fff;
-
+  
     text-align: center;
-
+  
     display: grid;
-    grid-template-rows: 35px 140px 35px 90px 30px;
-    grid-template-columns: 40px 80px 10px 70px;
+    grid-template-rows: 35px 140px 35px 30px 30px 30px 30px;
+    grid-template-columns: 40px 40px 40px 10px 70px;
     grid-template-areas:
-        "reviewUserImg reviewUserName reviewUserName reviewMountainName"
-        "reviewImg reviewImg reviewImg reviewImg"
-        "reviewTitle reviewTitle reviewTitle reviewTitle"
-        "reviewContents reviewContents reviewContents reviewContents"
-        "reviewLike reviewLike . reviewDate";
-
+      "recruitUserImg recruitUserName recruitUserName recruitUserName recruitMountainName"
+      "recruitImg recruitImg recruitImg recruitImg recruitImg"
+      "recruitTitle recruitTitle recruitTitle recruitTitle recruitTitle"
+      "recruitScheduleSchedule recruitSchedule recruitSchedule recruitSchedule recruitSchedule"
+      "recruitScheduleTime recruitTime recruitTime recruitTime recruitTime"
+      "recruitScheduleMember recruitScheduleMember recruitMember recruitMember recruitMember"
+      "recruitLike recruitLike recruitLike recruitLike recruitDate";
+  
     align-items: center;
-    justify-items: center;
-}
-
-.review-item>p {
+    justify-items: center; 
+  }
+  .recruit-item > p {
     margin: 0;
     justify-self: left;
-}
-
-
-.review-item>.user-img {
-    grid-area: reviewUserImg;
-
+  }
+  .recruit-item > .user-img {
+    grid-area: recruitUserImg;
+  
     width: 30px;
     height: 30px;
     border-radius: 50%;
-
+  
     justify-self: left;
-}
-
-.review-item>.user-name {
-    grid-area: reviewUserName;
-
+  }
+  .recruit-item > .user-name {
+    grid-area: recruitUserName;
+  
     font-size: 14px;
-    margin: 0;
-
+  
     justify-self: left;
-}
-
-.review-item>.mountain-name {
-    grid-area: reviewMountainName;
+  }
+  .recruit-item > .mountain-name {
+    grid-area: recruitMountainName;
     font-size: 14px;
-    margin: 0;
     justify-self: right;
-}
-
-.review-item>.review-img {
-    grid-area: reviewImg;
+  }
+  .recruit-item > .recruit-img {
+    grid-area: recruitImg;
     width: 130px;
     height: 130px;
     border-radius: 50%;
-
+  
     justify-self: center;
-}
-
-.review-item>.review-title {
-    grid-area: reviewTitle;
-
+  }
+  .recruit-item > .recruit-title {
+    grid-area: recruitTitle;
+  
     font-size: 20px;
     margin: 0;
-
+  
     justify-self: center;
-}
-
-.review-item>.review-contents {
-    grid-area: reviewContents;
-
-    width: 195px;
-    margin: 0;
-
+  }
+  .recruit-item > .recruit-schedule-schedule {
+    grid-area: recruitScheduleSchedule;
+  
     font-size: 15px;
-
-    justify-self: center;
-    text-align: left;
-
-    white-space: nowrap;
-    display: -webkit-box;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: normal;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-}
-
-.review-item>.review-like {
-    grid-area: reviewLike;
+  }
+  .recruit-schedule {
+    grid-area: recruitSchedule;
+  
+    font-size: 15px;
+  }
+  .recruit-schedule-time {
+    grid-area: recruitScheduleTime;
+  
+    font-size: 15px;
+  }
+  .recruit-time {
+    grid-area: recruitTime;
+  
+    font-size: 15px;
+  }
+  .recruit-schedule-member {
+    grid-area: recruitScheduleMember;
+  
+    font-size: 15px;
+  }
+  .recruit-member {
+    grid-area: recruitMember;
+  
+    font-size: 15px;
+  }
+  .recruit-item > .recruit-like {
+    grid-area: recruitLike;
     text-align: left;
     display: flex;
     align-items: center;
     gap: 5px;
-
+  
     justify-self: left;
-}
-
-.review-like>.favorite {
+  }
+  .recruit-like > .favorite {
     width: 30px;
     height: 30px;
     border: 0;
     background: url(../svg/favorite.svg);
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-.review-like>.favorite-count {
+  }
+  .recruit-like > .favorite-count {
     font-size: 12px;
-}
-
-.review-item>.review-date {
-    grid-area: reviewDate;
-
+  }
+  .recruit-item > .recruit-date {
+    grid-area: recruitDate;
+  
     font-size: 12px;
     justify-self: right;
-}
-
-
-/* @media screen and (max-width: 1024px) {
-    .mountain-info {
-        display: grid;
-        grid-template-columns: repeat(1, 300px);
-        
-        justify-content: center;
-        gap: 20px;
-      }
-  } */
+  }
+  
+  
+    
+    
+    
+    /* @media screen and (max-width: 1024px) {
+      .mountain-info {
+          display: grid;
+          grid-template-columns: repeat(1, 300px);
+          
+          justify-content: center;
+          gap: 20px;
+        }
+    } */
